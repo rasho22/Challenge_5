@@ -1,0 +1,45 @@
+ 
+  h5{
+ 	background-color: black;
+
+
+ }
+ 
+ .photo1 {
+ 	width:336px; 
+ 	height: 312px;
+ 	padding: 0px 0px 0px 0px!important;
+ }
+  .photo2 {
+ 	width:336px; 
+ 	height: 312px;
+ 	padding: 0px 0px 0px 0px!important;
+ }
+  .photo3 {
+ 	width:336px; 
+ 	height: 312px;
+ 	padding: 0px 0px 0px 0px!important;
+ }
+ .sousimage{
+
+ 	height: 100px;
+ 	width:336px;
+ 	background-color: black;
+
+ }
+
+ h3 {
+ 	font-size: 38px;
+ }
+ h4{
+ 	color: green;
+ }
+ .lignenoir{
+ 	width: 320px;
+ 	height: 5px;
+ 	color: black;
+ }
+ .photo4{
+ 	height: 170px;
+ 	width: 305px;
+ }
