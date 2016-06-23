@@ -34,11 +34,11 @@
  }
 
 /* partie sous image centre et droite  */
- .lignenoir1{
-    border: 5px;
+ .lignenoir{
+    margin: 0 auto;
     width: 310px;
     height: 5px;
-    color: black;
+    background-color: black;
  }
  .paragraphe{
 
@@ -52,4 +52,11 @@
     width: 308px;
     height: 173px;
     
+ }
+
+ footer {
+  padding: 10px;
+  color: white;
+  height: 48px;
+  background-color: black;
  }
