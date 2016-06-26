@@ -1,16 +1,18 @@
 /*les photos*/
+*{
+  font-family: Lato, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
 
- .nav ul li:hover {
+ .navbar-nav ul li a:hover {
     overflow: hidden;
     opacity: 1;
-    background-color: green;
+    background-color: #24890D;
  }
 
- .image {
-    padding-left: 0px;
- }
 
-  .photo1 {
+  .photo {
   	width:350px; 
  	  height: 220px;
  	  padding:0 0 10 0!important;
@@ -19,76 +21,151 @@
    	margin-right: auto;
    	background-color: black;
  }
- 
-  .photo2 {
- 	  width:350px; 
- 	  height: 220px;
- 	  padding:0 0 10 0!important;
-   	margin: 0;
-   	margin-left: auto;
-   	margin-right: auto;
-   background-color: black;
- }
-  .photo3 {
- 	  width:350px; 
- 	  height: 220px;
-    padding:0 0 10 0!important;
-   	margin: 0;
-   	margin-left: auto;
-   	margin-right: auto;
-   	background-color: black;
- }
 
- h6, h4 {
+.photo:hover{
+  opacity:0.6;
   color: white;
- }
+}
 
 
-/* partie sous image centre et droite  */
+.sousimage {
+  height: 118px;
+  margin-top: 25px;
+  color: white;
+
+}
+
+.sousimage a{
+  text-decoration: none;
+  color: white;
+}
+
+.sousimage a h4{
+  text-decoration: none;
+  color: white;
+  font-family: inherit;
+}
+
+.sousimage a:hover{
+  opacity:0.6;
+  color: #24890D;
+  text-decoration: none;
+}
+
+.sousimage a h4:hover{
+  opacity:0.6;
+  color: #24890D;
+  text-decoration: none;
+}
+
+/* partie sousimage centre  */
+
+.col-lg-8{
+  padding-left: 115px;
+}
 
 h1 {
+  width: 451px;
   margin-top: 70px;
+  font-size: 35px;
+  margin-bottom: 25px;
 }
- .lignenoir{
-    color: green;
-    overflow: hidden;
-    opacity: 1;
+
+/* partie sousimage droite  */
+
+ .lignenoir1{
     margin-top:70px ;
     width: 310px;
     height: 5px;
     background-color: black;
  }
 
- .paragraphe{
 
-    width: 485px;
-    height:450px;
+h4 {
+  font-weight: bold;
+}
+
+#sousimagedroite{
+  padding: 0 auto;
+  margin: 0;
+  line-height: 20px;
+  
+}
+
+#sousimagedroite p{
+  color: gray;
+}
+
+#sousimagedroite h5{
+  float: right;
+  padding-right: 155px;
+  font-weight: bold;
+}
+
+
+ .paragraphe{
+    width: 451px;
     margin-top: 20px;
     padding-top: 20px;
  }
 
+ .sousvideo{
+  color:#24890D;
+  text-decoration: underline; 
+ }
+
+ .sousvideo:hover{
+   color:#24890D;
+  text-decoration:none; 
+ }
+
+hr{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+  .lignenoir2{
+    margin-top:45px ;
+    width: 310px;
+    height: 5px;
+    background-color: black;
+ }
+
+
  .photo4{
     width: 308px;
     height: 173px;
+    margin-top: 20px;
     
  }
- /* navgauche*/
- #navgauche{
+.photo4:hover{
+  opacity:0.6;
+  color: white;
+}
 
+
+ /* navgauche*/
+
+ #navgauche{
   padding: 0 auto;
   background-color: black;
-  margin-top: 60px;
+  margin-top: 50px;
 
  }
 
+.fa-play{
+  padding: 10px;
+  border: 2px solid;
 
+
+}
 .navbarleft ul li a {
   color: white;
 }
 .navbarleft ul li:hover {
   overflow: hidden;
-  opacity: 1;
-  background-color: green;
+  background-color:#24890D;
+  text-decoration: none;
 
 }
 
