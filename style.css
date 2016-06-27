@@ -5,23 +5,31 @@
   margin: 0px;
 }
 
- .navbar-nav ul li a:hover {
+.navbar-fixed-top{
+  background-color: black;
+
+}
+.navbar-fixed-top a{
+  color: white;
+  height: 50px;
+}
+
+ .navbar-fixed-top ul li a:hover {
     overflow: hidden;
     opacity: 1;
     background-color: #24890D;
  }
 .col-lg-10{
   margin-top: 50px;
+  padding-left: 0px;
 }
 
   .photo {
   	width:350px; 
- 	  height: 220px;
- 	  padding:0 0 10 0!important;
-   	margin: 0;
-   	margin-left: auto;
-   	margin-right: auto;
+ 	  height: 194px;
+ 	  padding:0 0 0 0!important;
    	background-color: black;
+    margin-top: 20px;
  }
 
 .photo:hover{
@@ -45,7 +53,6 @@
 .sousimage a h4{
   text-decoration: none;
   color: white;
-  font-family: inherit;
 }
 
 .sousimage a:hover{
@@ -81,11 +88,11 @@ h4 {
 }
 h5{
   color: white;
-  text-align: center;
-   font-weight: bold;
+  padding-left: 20px;
+  font-weight: bold;
 }
 h6 {
-  text-align: center;
+  padding-left: 20px;
 }
 
 #sousimagedroite{
@@ -100,7 +107,9 @@ h6 {
 }
 
 #sousimagedroite h5{
+  color: black;
   float: right;
+  margin-top: 0px;
   padding-right: 155px;
   font-weight: bold;
 }
@@ -167,7 +176,9 @@ hr{
   margin-top: 50px;
 
  }
-
+#navgauche h6{
+  margin-bottom: 20px;
+}
 
 .navbarleft ul li a {
   color: white;
@@ -198,16 +209,62 @@ input{
   color: white;
   background-color: black;
   width: 160px;
-  height: 22px;
-  margin-top: 50px;
+  height: 20px;
+  margin-top: 48px;
+  margin-bottom: 48px;
   margin-left: 20px;
+  border: 1px solid white;
 }
  .photo5 {
+  width: 164px;
+  height: 164px;
+  margin-bottom: 15px;
+ }
+ .textleft{
+  padding-bottom: 55px;
+  height: 400px;
+  color: white;
   margin-left: 20px;
-    width: 162px;
-    height: 161px;
+  text-decoration: none;
+ }
+ .textleft h6{
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+  .textleft h5{
+    padding-left:0px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+
+ .textleft p a{
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+
  }
 
+ .textleft p{
+  color: white;
+  margin-bottom: 0px;
+ }
+
+ .textleft p a:hover{
+  color:#24890D;
+  text-decoration: none;
+ }
+.Pbottom{
+  height: 200px;
+  padding-left: 20px;
+  margin-top: 55px;
+  font-size: 12px;
+  color: white;
+}
+.Pbottom p a{
+  color:#24890D;
+  text-decoration: none;
+}
 
 /*footer*/
 
