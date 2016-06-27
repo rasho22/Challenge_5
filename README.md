@@ -18,3 +18,7 @@ Rollovers :
 - Il y a un changement d'opacité 
 
 Vous pouvez tester le thème ici pour voir les effets: https://demo.audiotheme.com/progeny-mmxiv/ Je compte sur vous pour ne pas recopier tout le CSS :)
+
+Le travail a été divisé ainsi :
+Gaël : les 2 navbar top et left ;
+Abdul : la partie photos et sous photos (centre et droite) +footer

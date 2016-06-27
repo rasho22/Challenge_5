@@ -10,7 +10,9 @@
     opacity: 1;
     background-color: #24890D;
  }
-
+.col-lg-10{
+  margin-top: 50px;
+}
 
   .photo {
   	width:350px; 
